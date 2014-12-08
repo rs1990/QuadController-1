@@ -1,0 +1,24 @@
+<package>
+  <description brief="quad_controller">
+
+     quad_controller
+
+  </description>
+  <author>raghavendra</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/quad_controller</url>
+  <depend package="roscpp"/>
+  <depend package="image_transport"/>
+  <depend package="sensor_msgs"/>
+  <depend package="std_srvs"/>
+  <depend package="tf"/>
+  <depend package="camera_info_manager"/>
+  <depend package="geometry_msgs"/>
+  <depend package="ardrone_autonomy"/>
+  <depend package="bullet"/>
+  <rosdep name="eigen"/>
+
+</package>
+
+

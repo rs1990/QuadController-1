@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+
+<launch>
+	<!--include file="$(find ardrone_autonomy)/launch/ardrone.launch"/-->
+	<!--include file="$(find ardrone_autonomy)/launch/ardrone_agressive.launch"/-->
+	<node name="bs_demo" pkg="quad_controller" type="backstepping_demo" output="screen"/> 
+</launch>
+
